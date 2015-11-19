@@ -47,6 +47,7 @@
 		38224CD51BFDF495005B0D11 /* CACarouselViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CACarouselViewCell.h; path = CACarouselView/CACarouselViewCell.h; sourceTree = SOURCE_ROOT; };
 		38224CD61BFDF495005B0D11 /* CACarouselViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CACarouselViewCell.m; path = CACarouselView/CACarouselViewCell.m; sourceTree = SOURCE_ROOT; };
 		38224CD71BFDF495005B0D11 /* CACarouselViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CACarouselViewCell.xib; path = CACarouselView/CACarouselViewCell.xib; sourceTree = SOURCE_ROOT; };
+		3827423A1BFDFA4000C1D671 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		384A791B1BFDEF75009E671E /* CACarouselViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CACarouselViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		384A791F1BFDEF75009E671E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		384A79211BFDEF75009E671E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 		384A791D1BFDEF75009E671E /* CACarouselViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3827423A1BFDFA4000C1D671 /* Common.h */,
 				384A79211BFDEF75009E671E /* AppDelegate.h */,
 				384A79221BFDEF75009E671E /* AppDelegate.m */,
 				38224CC31BFDF304005B0D11 /* CACarouselViewController.h */,

@@ -10,8 +10,4 @@
 
 @implementation CACarouselViewCell
 
-- (void)awakeFromNib {
-    // Initialization code
-}
-
 @end

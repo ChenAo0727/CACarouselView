@@ -16,7 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.carouselVC = [CACarouselViewController defaultCAViewController];
+    self.window.rootViewController = self.carouselVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

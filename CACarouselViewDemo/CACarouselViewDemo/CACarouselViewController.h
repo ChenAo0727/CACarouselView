@@ -6,8 +6,11 @@
 //  Copyright © 2015年 chenao. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface CACarouselViewController : UIViewController
-
+#import "CACarouselView.h"
+@class CACarouselView;
+@interface CACarouselViewController : UIViewController <CACarouselDelegate>
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *CACarouselViewHeightConstraint;
+@property (weak, nonatomic) IBOutlet CACarouselView *CACarouselView;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
++ (instancetype)defaultCAViewController;
 @end
