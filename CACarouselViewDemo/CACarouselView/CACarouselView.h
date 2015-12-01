@@ -16,6 +16,7 @@
 
 @interface CACarouselView : UICollectionView<UICollectionViewDelegate,UICollectionViewDataSource,
 UICollectionViewDelegateFlowLayout>
+@property (nonatomic, assign) BOOL isBool;
 @property (nonatomic ,strong) NSArray *images;
 @property (nonatomic, strong) NSTimer *timer;
 @property (nonatomic, getter=isNeedRefresh) BOOL needRefresh;
